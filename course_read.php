@@ -45,9 +45,9 @@ $result = $conn-> query($sql);
                         <td><?php echo $row['duration'];?></td>
                         
 
-                        <td><a class="btn btn-info" href="update.php?id=<?php echo $row['id'];?>">
+                        <td><a class="btn btn-info" href="course_update.php?id=<?php echo $row['id'];?>">
                         Edit</a>&nbsp;
-                        <a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'];?>">
+                        <a class="btn btn-danger" href="course_delete.php?id=<?php echo $row['id'];?>">
                     Delete</a></td>
                         
                     </tr>

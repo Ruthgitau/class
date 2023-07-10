@@ -56,7 +56,7 @@ $result = $conn-> query($sql);
                     </tr>
 
                     <?php
-                }
+                } 
 
 
             }

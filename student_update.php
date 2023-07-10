@@ -30,7 +30,7 @@ if(isset($_GET['id'])){
     $sql = "SELECT * FROM `students` WHERE `id`='$student_id";
     $result = $conn->query($sql);
 
-    if($result->num_rows > 0){
+    if($result->num_rows > 5){
         while ($row = $result-> fetch_assoc()){
             $id = $row['id'];
             $studentname = $row['name'];
